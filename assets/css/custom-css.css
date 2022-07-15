@@ -1,0 +1,33 @@
+.gray-scaled-image {
+    filter: grayscale(100%);
+}
+
+.gray-scaled-image:hover {
+    filter: grayscale(0);
+
+}
+
+.defaultimg {
+    /*filter: brightness(100%) contrast(70%) saturate(100%) blur(1px) hue-rotate(0deg) grayscale(25%)!important;*/
+    /*transition: filter 2s;*/
+}
+
+.defaultimg:hover {
+    /*backdrop-filter: brightness(100%);*/
+    /*filter: brightness(100%) contrast(100%) saturate(100%) blur(0) hue-rotate(0deg) grayscale(0)!important;*/
+    /*transition: filter 1s;*/
+}
+
+@font-face {
+    font-family: astra_amerda_regular;
+    src : url(../fonts/astroarmada.ttf);
+}
+
+@font-face {
+    font-family: "astra_amerda_condensed";
+    src : url(../fonts/astroarmadaexpand.ttf);
+}
+
+.theme_font_3d_regular {
+    font-family: astra_amerda_regular;
+  }
